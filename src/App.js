@@ -1,38 +1,7 @@
 import React from 'react';
-
-const EmployeeNames = () => {
-  return (
-   <ul>
-    <li>Alina</li>
-    <li>Mahira</li>
-    <li>Mustafa</li>
-    <li>Hamid</li>
-   </ul>
-  );
-};
-
-const EmployeeIDs = () => {
-  return (
-   <ul>
-    <li>0900</li>
-    <li>0913</li>
-    <li>1921</li>
-    <li>2003</li>
-   </ul>
-  );
-};
-
-const EmployeeContacts = () => {
-  return (
-   <ul>
-   <li>090078601</li>
-    <li>19134532</li>
-    <li>59215423</li>
-    <li>21037373</li>
-   </ul>
-  );
-};
-
+import EmployeeNames from './components/EmployeeNames';
+import EmployeeIDs from './components/EmployeeIDs';
+import EmployeeContacts from './components/EmployeeContacts';
 
 export default function App()
 {
@@ -54,6 +23,6 @@ export default function App()
     </div>
       
    </React.Fragment>
+
   );
 };
-
